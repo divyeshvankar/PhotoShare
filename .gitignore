@@ -1,0 +1,28 @@
+# Ignore database files
+*.sqlite3
+
+# Ignore static files collected by 'collectstatic' command
+/staticfiles/
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore virtual environment
+venv/
+
+# Ignore development server
+.env
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore local settings file
+/local_settings.py

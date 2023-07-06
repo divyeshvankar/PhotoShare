@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Photo</title>
+</head>
+<body>
+    <h1>Delete Photo</h1>
+    <h2>Are you sure you want to delete this photo?</h2>
+    <p><strong>Photo ID:</strong> {{ photo.pk }}</p>
+    <p><strong>Photo Description:</strong> {{ photo.description }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
